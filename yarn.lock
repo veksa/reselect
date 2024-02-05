@@ -953,6 +953,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@veksa/reselect@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@veksa/reselect@workspace:."
+  dependencies:
+    "@reduxjs/toolkit": ^2.0.1
+    "@testing-library/react": ^14.1.2
+    "@types/lodash": ^4.14.175
+    "@types/react": ^18.2.38
+    "@types/react-dom": ^18.2.17
+    "@types/shelljs": ^0.8.11
+    "@typescript-eslint/eslint-plugin": ^6
+    "@typescript-eslint/eslint-plugin-tslint": ^6
+    "@typescript-eslint/parser": ^6
+    "@typescript/analyze-trace": ^0.10.1
+    eslint: ^8.0.1
+    eslint-plugin-react: ^7.26.1
+    eslint-plugin-typescript: 0.14.0
+    jsdom: ^23.0.0
+    lodash: ^4.17.21
+    lodash.memoize: ^4.1.2
+    memoize-one: ^6.0.0
+    micro-memoize: ^4.0.9
+    netlify-plugin-cache: ^1.0.3
+    prettier: ^2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-redux: ^9.0.4
+    rimraf: ^3.0.2
+    shelljs: ^0.8.5
+    tsup: ^6.7.0
+    typescript: 5.2
+    vitest: ^1.1.1
+  languageName: unknown
+  linkType: soft
+
 "@vitest/expect@npm:1.1.1":
   version: 1.1.1
   resolution: "@vitest/expect@npm:1.1.1"
@@ -4225,41 +4260,6 @@ __metadata:
   checksum: 7663b4c28a0e908e74dc25262e1d813d028b9c2ee96160cb0f40a16f09c5ac632fa16af6bafede7eb0ff16ab2d5bea2cd8814d9a9488e0262b8317fef90b1dc0
   languageName: node
   linkType: hard
-
-"reselect@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "reselect@workspace:."
-  dependencies:
-    "@reduxjs/toolkit": ^2.0.1
-    "@testing-library/react": ^14.1.2
-    "@types/lodash": ^4.14.175
-    "@types/react": ^18.2.38
-    "@types/react-dom": ^18.2.17
-    "@types/shelljs": ^0.8.11
-    "@typescript-eslint/eslint-plugin": ^6
-    "@typescript-eslint/eslint-plugin-tslint": ^6
-    "@typescript-eslint/parser": ^6
-    "@typescript/analyze-trace": ^0.10.1
-    eslint: ^8.0.1
-    eslint-plugin-react: ^7.26.1
-    eslint-plugin-typescript: 0.14.0
-    jsdom: ^23.0.0
-    lodash: ^4.17.21
-    lodash.memoize: ^4.1.2
-    memoize-one: ^6.0.0
-    micro-memoize: ^4.0.9
-    netlify-plugin-cache: ^1.0.3
-    prettier: ^2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-redux: ^9.0.4
-    rimraf: ^3.0.2
-    shelljs: ^0.8.5
-    tsup: ^6.7.0
-    typescript: 5.2
-    vitest: ^1.1.1
-  languageName: unknown
-  linkType: soft
 
 "resolve-from@npm:^4.0.0":
   version: 4.0.0
