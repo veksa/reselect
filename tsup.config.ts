@@ -30,38 +30,9 @@ export default defineConfig((options): Options[] => {
     {
       ...commonOptions,
       name: 'Modern ESM',
-      target: ['esnext'],
+      target: ['es2019'],
       format: ['esm'],
       outExtension: () => ({ js: '.mjs' })
-    },
-
-    // Support Webpack 4 by pointing `"module"` to a file with a `.js` extension
-    // and optional chaining compiled away
-    {
-      ...commonOptions,
-      name: 'Legacy ESM, Webpack 4',
-      entry: {
-        'reselect.legacy-esm': 'src/index.ts'
-      },
-      format: ['esm'],
-      outExtension: () => ({ js: '.js' }),
-      target: ['es2017']
-    },
-
-    // Meant to be served up via CDNs like `unpkg`.
-    {
-      ...commonOptions,
-      name: 'Browser-ready ESM',
-      entry: {
-        'reselect.browser': 'src/index.ts'
-      },
-      platform: 'browser',
-      env: {
-        NODE_ENV: 'production'
-      },
-      format: ['esm'],
-      outExtension: () => ({ js: '.mjs' }),
-      minify: true
     },
     {
       ...commonOptions,

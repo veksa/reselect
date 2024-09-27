@@ -846,6 +846,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@veksa/reselect@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@veksa/reselect@workspace:."
+  dependencies:
+    "@reduxjs/toolkit": "npm:^2.0.1"
+    "@testing-library/react": "npm:^14.1.2"
+    "@types/lodash": "npm:^4.14.175"
+    "@types/react": "npm:^18.2.38"
+    "@types/react-dom": "npm:^18.2.17"
+    "@types/shelljs": "npm:^0.8.11"
+    "@typescript-eslint/eslint-plugin": "npm:^6"
+    "@typescript-eslint/eslint-plugin-tslint": "npm:^6"
+    "@typescript-eslint/parser": "npm:^6"
+    "@typescript/analyze-trace": "npm:^0.10.1"
+    eslint: "npm:^8.0.1"
+    eslint-plugin-react: "npm:^7.26.1"
+    eslint-plugin-typescript: "npm:0.14.0"
+    jsdom: "npm:^23.0.0"
+    lodash: "npm:^4.17.21"
+    lodash.memoize: "npm:^4.1.2"
+    memoize-one: "npm:^6.0.0"
+    micro-memoize: "npm:^4.0.9"
+    netlify-plugin-cache: "npm:^1.0.3"
+    prettier: "npm:^2.7.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-redux: "npm:^9.0.4"
+    rimraf: "npm:^3.0.2"
+    shelljs: "npm:^0.8.5"
+    tsup: "npm:^8.2.4"
+    typescript: "npm:^5.4.2"
+    vitest: "npm:^1.6.0"
+  languageName: unknown
+  linkType: soft
+
 "@vitest/expect@npm:1.6.0":
   version: 1.6.0
   resolution: "@vitest/expect@npm:1.6.0"
@@ -4195,41 +4230,6 @@ __metadata:
   checksum: 10/1fdae11a39ed9c8d85a24df19517c8372ee24fefea9cce3fae9eaad8e9cefbba5a3d4940c6fe31296b6addf76e035588c55798f7e6e147e1b7c0855f119e7fa5
   languageName: node
   linkType: hard
-
-"reselect@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "reselect@workspace:."
-  dependencies:
-    "@reduxjs/toolkit": "npm:^2.0.1"
-    "@testing-library/react": "npm:^14.1.2"
-    "@types/lodash": "npm:^4.14.175"
-    "@types/react": "npm:^18.2.38"
-    "@types/react-dom": "npm:^18.2.17"
-    "@types/shelljs": "npm:^0.8.11"
-    "@typescript-eslint/eslint-plugin": "npm:^6"
-    "@typescript-eslint/eslint-plugin-tslint": "npm:^6"
-    "@typescript-eslint/parser": "npm:^6"
-    "@typescript/analyze-trace": "npm:^0.10.1"
-    eslint: "npm:^8.0.1"
-    eslint-plugin-react: "npm:^7.26.1"
-    eslint-plugin-typescript: "npm:0.14.0"
-    jsdom: "npm:^23.0.0"
-    lodash: "npm:^4.17.21"
-    lodash.memoize: "npm:^4.1.2"
-    memoize-one: "npm:^6.0.0"
-    micro-memoize: "npm:^4.0.9"
-    netlify-plugin-cache: "npm:^1.0.3"
-    prettier: "npm:^2.7.1"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-redux: "npm:^9.0.4"
-    rimraf: "npm:^3.0.2"
-    shelljs: "npm:^0.8.5"
-    tsup: "npm:^8.2.4"
-    typescript: "npm:^5.4.2"
-    vitest: "npm:^1.6.0"
-  languageName: unknown
-  linkType: soft
 
 "resolve-from@npm:^4.0.0":
   version: 4.0.0
