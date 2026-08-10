@@ -1,6 +1,6 @@
 {
   "name": "@veksa/reselect",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Selectors for Redux.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/reselect.legacy-esm.js",
